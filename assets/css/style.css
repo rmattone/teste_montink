@@ -1,0 +1,107 @@
+html {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+body, button, input, textarea, select {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.thead-sticky {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.active {
+    background-color: #8f8f8f  !important;
+    /* color: black; */
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.bg-red { 
+    background-color: #ff0000 !important;
+    color: white !important;
+}
+
+.bg-orange { 
+    background-color: #ffCC00 !important;
+}
+
+.bg-yellow { 
+    background-color: #ffff00 !important;
+}
+
+.bg-purple { 
+    background-color: #663399 !important;
+    color: white !important;
+}
+
+.bg-green { 
+    background-color: #99CC33 !important;
+}
+
+.bg-dark-green { 
+    background-color: #009900 !important;
+    color: white !important;
+}
+
+.bg-blue { 
+    background-color: #0000ff !important;
+    color: white !important;
+}
+
+.strong {
+    font-weight: bold !important;
+}
+
+/* Styling the entire scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    /* width for vertical scrollbar */
+    height: 8px;
+    /* height for horizontal scrollbar */
+}
+
+/* Styling the track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    /* rounded corners */
+}
+
+/* Styling the thumb (scroll handle) */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    /* darker gray */
+    border-radius: 10px;
+    /* rounded corners */
+}
+
+/* Styling on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* darker on hover */
+}
+
+.tooltip .tooltip-inner {
+    text-transform: none !important;
+    max-width: 450px;
+}
