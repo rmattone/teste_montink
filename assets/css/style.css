@@ -31,7 +31,7 @@ body, button, input, textarea, select {
 }
 
 .active {
-    background-color: #8f8f8f  !important;
+    background-color: #d5d5d5  !important;
     /* color: black; */
     font-weight: bold;
     border-radius: 8px;

@@ -2,8 +2,6 @@
 
 namespace core;
 
-use app\helper\SessionManager;
-use app\libraries\Modules;
 
 class Loader
 {
@@ -21,7 +19,7 @@ class Loader
         if (class_exists($modelClass)) {
             return new $modelClass();
         } else {
-            echo "Erro: O model '$model' não foi encontrado!";
+            echo "Erro: O model '$modelClass' não foi encontrado!";
             return null;
         }
     }

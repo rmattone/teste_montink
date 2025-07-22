@@ -10,15 +10,15 @@ use Core\View;
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
     <title><?= View::renderSection('title'); ?></title>
-    <link rel="icon" href="/domus/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?= base_url() ?>/assets/images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
-    <link rel="stylesheet" href="/domus/assets/modules/bootstrap-5.3.3/themes/sandstone.min.css">
-    <link rel="stylesheet" href="/domus/assets/modules/fontawesome-free-6.7.1/css/all.min.css">
-    <link rel="stylesheet" href="/domus/assets/modules/datatables/datatables.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/modules/bootstrap-5.3.3/themes/sandstone.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/modules/fontawesome-free-6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/modules/datatables/datatables.min.css">
 
-    <link rel="stylesheet" href="/domus/assets/css/style.css">
+    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.5/dist/sweetalert2.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 

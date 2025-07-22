@@ -26,3 +26,4 @@
     }
 </script>
 <script src="/assets/js/custom.js"></script>
+<script src="/assets/js/cart.js"></script>

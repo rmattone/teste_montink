@@ -32,6 +32,10 @@ class Router
                 }
             }
         }
+        echo '<pre>';
+        var_dump($requestUri);
+        var_dump($requestMethod);
+        exit;
         $controller = new ErrorController();
 
         call_user_func([$controller, 'error404'], array_merge($params, ['requestMethod' => $requestMethod, 'requestUri' => $requestUri]));

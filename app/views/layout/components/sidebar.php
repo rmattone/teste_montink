@@ -2,10 +2,20 @@
 
 $menus = [
     [
-        'title' => 'Página Inicial',
+        'title' => 'Produtos',
         'icon' => 'fa-solid fa-home',
         'url' => base_url()
     ],
+    [
+        'title' => 'Fazer pedido',
+        'icon' => 'fa-solid fa-box-open',
+        'url' => base_url() . 'order'
+    ],
+    [
+        'title' => 'Pedidos',
+        'icon' => 'fa-solid fa-list',
+        'url' => base_url() . 'orders'
+    ]
 ];
 ?>
 
