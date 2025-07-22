@@ -85,13 +85,6 @@ Contém as classes fundamentais para o funcionamento do MVC:
 * **Router.php** → Define e trata as rotas da aplicação.
 * **View\.php** → Renderiza os arquivos de visualização.
 
-### 📁 `docs/`
-
-Contém documentação útil para desenvolvedores:
-
-* **cloning\_project.md** → Instruções para rodar o projeto localmente.
-* **deploy.md** → Passos para realizar deploy com `git bundle`.
-
 ### 📄 Arquivos Raiz
 
 * **index.php** → Arquivo de entrada da aplicação, ponto inicial da execução.
