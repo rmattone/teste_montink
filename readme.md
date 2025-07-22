@@ -95,4 +95,4 @@ Contém as classes fundamentais para o funcionamento do MVC:
 
 
 
-## 📆 Atualizado em: 28/05/2025
+## 📆 Atualizado em: 22/07/2025
